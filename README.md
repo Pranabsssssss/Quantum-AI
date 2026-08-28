@@ -1,23 +1,40 @@
-# 🤖 Quantum AI Chatbot
+# 🤖 Quantum AI
 
-Quantum AI is a self-learning, powerful, and fun chatbot built to chat, answer questions, and even learn from the internet automatically.  
-It uses OpenAI for chat intelligence and Firebase for login and chat history.
+> One of my earliest AI projects — a web-based AI chatbot that later became part of QuantumOS.
 
-## Environment Variables
+## About
 
-Set these in Vercel and in your local `.env.local` file:
+**Quantum AI** is one of my earliest projects involving **Artificial Intelligence and generative AI**.
 
-- `GOOGLE_GENERATIVE_AI_API_KEY` for the Gemini / Google Generative AI key
-- `NEXT_PUBLIC_ASSISTANT_BASE_URL` if you use a hosted assistant backend
+The project started as an independent web-based AI chatbot and later became an important part of **QuantumOS**, my web-based operating system project.
 
-## 🚀 Features
+The idea was to create an AI assistant that could chat with users, answer questions, and provide an interactive conversational experience directly inside a web application.
 
-- Google Login (with Firebase Auth)
-- Smart AI chat (powered by OpenAI)
-- Chat history saved to Firebase
-- One-page UI (no refresh needed)
-- Auto-trainable (planned feature)
-- Funny, friendly, and interactive design
+This project was an early step in my exploration of building AI-powered applications and integrating LLMs into real user interfaces.
 
 ---
-# Quantum-AI
+
+# 🧠 What Is Quantum AI?
+
+Quantum AI is a browser-based AI chatbot designed to provide an interactive conversational experience.
+
+The original concept was centered around:
+
+```text
+                 User
+                   │
+                   ▼
+             Quantum AI
+                   │
+                   ▼
+              AI Model
+                   │
+          ┌────────┴────────┐
+          │                 │
+          ▼                 ▼
+      Response          Conversation
+          │                 │
+          └────────┬────────┘
+                   │
+                   ▼
+                  User
